@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ka">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>suxita_001 — ქართული თამაშები</title>
+<meta name="description" content="ქართული მოტივებით აწყობილი თამაშები TikTok-იდან — ითამაშე ბრაუზერში.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #14100f;
+    --card: #211a18;
+    --line: #3a2e2a;
+    --text: #f6ede4;
+    --muted: #b8a89c;
+    --wine: #b3263a;
+    --wine-2: #e0475c;
+    --gold: #f2c46d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans Georgian", system-ui, sans-serif;
+    line-height: 1.5;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  header {
+    border-bottom: 1px solid var(--line);
+    position: sticky; top: 0; z-index: 5;
+    background: rgba(20, 16, 15, .92);
+    backdrop-filter: blur(8px);
+  }
+  .bar { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .logo { font-weight: 900; font-size: 20px; text-decoration: none; letter-spacing: .3px; }
+  .logo span { color: var(--wine-2); }
+  nav a { text-decoration: none; color: var(--muted); margin-left: 20px; font-weight: 700; }
+  nav a:hover { color: var(--text); }
+
+  .hero { padding: 56px 0 40px; }
+  .hero h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.15; margin: 0 0 14px; font-weight: 900; }
+  .hero h1 em { font-style: normal; color: var(--gold); }
+  .hero p { color: var(--muted); font-size: 18px; max-width: 620px; margin: 0 0 24px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--wine); color: #fff; text-decoration: none;
+    padding: 12px 20px; border-radius: 12px; font-weight: 700;
+    transition: background .15s;
+  }
+  .btn:hover { background: var(--wine-2); }
+  .btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+  .btn.ghost:hover { border-color: var(--muted); }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  h2 { font-size: 28px; margin: 24px 0 18px; font-weight: 900; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; padding-bottom: 56px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    overflow: hidden; text-decoration: none; display: flex; flex-direction: column;
+    transition: transform .15s, border-color .15s;
+  }
+  .card:hover { transform: translateY(-3px); border-color: var(--wine-2); }
+  .thumb { aspect-ratio: 4 / 3; background: #000; overflow: hidden; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .body { padding: 14px 16px 18px; }
+  .body h3 { margin: 0 0 6px; font-size: 20px; }
+  .body p { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+  .tag { display: inline-block; font-size: 13px; font-weight: 700; color: var(--gold); }
+  .card.soon { opacity: .55; pointer-events: none; }
+  .card.soon .thumb { display: grid; place-items: center; color: var(--muted); font-size: 40px; background: #1b1513; }
+
+  footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="./">suxita<span>_001</span></a>
+    <nav>
+      <a href="#games">თამაშები</a>
+      <a href="https://www.tiktok.com/@suxita_001" target="_blank" rel="noopener">TikTok</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>ქართული თამაშები,<br>აწყობილი <em>30 წუთში</em></h1>
+    <p>TikTok-ზე ვაჩვენებ, როგორ ვაწყობ თამაშებს ქართული მოტივებით. აქ კი შენც შეგიძლია ითამაშო, პირდაპირ ბრაუზერში, ტელეფონზეც.</p>
+    <div class="btns">
+      <a class="btn" href="#games">ითამაშე</a>
+      <a class="btn ghost" href="https://www.tiktok.com/@suxita_001" target="_blank" rel="noopener">@suxita_001 TikTok-ზე</a>
+    </div>
+  </section>
+
+  <h2 id="games">თამაშები</h2>
+  <div class="grid">
+    <a class="card" href="games/ghipiani-tamada/">
+      <div class="thumb"><img src="assets/ghipiani-tamada.png" alt="ღიპიანი თამადა — თამაშის კადრი" loading="lazy"></div>
+      <div class="body">
+        <h3>ღიპიანი თამადა</h3>
+        <p>ღიპიანი თამადა ყანწით დაფრინავს თბილისის თავზე, შეჭამს ხინკალს და გვერდს აუვლის მახინჯ კორპუსებს.</p>
+        <span class="tag">▶ ითამაშე · კლიკი / შეხება = ფრენა</span>
+      </div>
+    </a>
+    <div class="card soon">
+      <div class="thumb">?</div>
+      <div class="body">
+        <h3>მალე…</h3>
+        <p>შემდეგი თამაში უკვე აწყობის პროცესშია.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© suxita_001 · ქართული თამაშები</div>
+</footer>
+</body>
+</html>
